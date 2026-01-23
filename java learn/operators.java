@@ -20,6 +20,12 @@ public class operators {
             System.out.println(x << y);
         } else if (a.equals("bitwise right")) {
             System.out.println(x >> y);
+        } else if (a.equals("Or")) {
+            System.out.println(x | y);
+        } else if (a.equals("And")) {
+            System.out.println(x & y);
+        } else if (a.equals("Xor")) {
+            System.out.println(x ^ y);
         } else {
             System.out.println("Invalid operator");
         }
